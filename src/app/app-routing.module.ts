@@ -7,19 +7,19 @@ import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
   {
-    path: '/',
+    path: '',
     component: HomeComponent,
   },
   {
-    path: '/admin',
+    path: 'admin',
     component: AdminComponent,
   },
   {
-    path: '/about',
+    path: 'about',
     component: AboutComponent,
   },
   {
-    path: '/user',
+    path: 'user',
     component: UserComponent,
   },
 ];

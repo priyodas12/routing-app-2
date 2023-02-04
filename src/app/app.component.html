@@ -1,5 +1,17 @@
-<h1>Routing App!</h1>
-<a routerLink="/">Home</a>
-<a routerLink="/about">About</a>
-<a routerLink="/user" routerLinkActive="active">User</a>
+<div>
+  <ul>
+    <li>
+      <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+    </li>
+    <li>
+      <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">About</a>
+    </li>
+    <li>
+      <a routerLink="/user" routerLinkActive="active" ariaCurrentWhenActive="page">User</a>
+    </li>
+    <li>
+      <a routerLink="/admin" routerLinkActive="active" ariaCurrentWhenActive="page">Admin</a>
+    </li>
+  </ul>
+</div>
 <router-outlet></router-outlet>
