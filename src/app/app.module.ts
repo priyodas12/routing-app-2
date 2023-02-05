@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AdminComponent } from './admin/admin.component';
 import { UserComponent } from './user/user.component';
 import { AboutComponent } from './about/about.component';
+import { NoPageComponent } from './no-page/no-page.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { AboutComponent } from './about/about.component';
     AdminComponent,
     UserComponent,
     AboutComponent,
+    NoPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
